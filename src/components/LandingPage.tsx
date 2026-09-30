@@ -60,7 +60,7 @@ export default function LandingPage() {
     <div className="relative overflow-x-hidden">
       <header className="fixed inset-x-0 top-0 z-40 border-b border-forest/10 bg-[#f3efe6]/85 backdrop-blur-md">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 md:h-20 md:px-8">
-          <a href="#top" className="font-[family-name:var(--font-brand)] text-2xl tracking-[0.35em] text-forest">
+          <a href="#top" className="font-serif text-2xl tracking-[0.35em] text-forest">
             ONYU
           </a>
           <nav className="hidden items-center gap-10 text-sm tracking-[0.18em] text-forest/80 md:flex">
@@ -273,7 +273,7 @@ export default function LandingPage() {
       <footer className="border-t border-forest/10 bg-[#2c4638] px-5 py-16 text-[#f3efe6] md:px-8">
         <div className="mx-auto flex max-w-6xl flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div>
-            <p className="font-[family-name:var(--font-brand)] text-3xl tracking-[0.35em]">ONYU</p>
+            <p className="font-serif text-3xl tracking-[0.35em]">ONYU</p>
             <p className="mt-4 max-w-xs text-sm leading-7 text-white/70">
               온유한 스킨케어. 서울에서 작은 배치로 만듭니다.
             </p>

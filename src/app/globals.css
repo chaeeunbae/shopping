@@ -16,9 +16,8 @@
   --color-forest: var(--forest);
   --color-mist: var(--mist);
   --color-stone: var(--stone);
-  --font-sans: var(--font-outfit);
-  --font-serif: var(--font-cormorant);
-  --font-brand: var(--font-brand);
+  --font-sans: var(--font-outfit), "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --font-serif: var(--font-cormorant), "Apple SD Gothic Neo", "Malgun Gothic", serif;
 }
 
 html {
@@ -32,7 +31,8 @@ section[id] {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-outfit), system-ui, sans-serif;
+  font-family: var(--font-outfit), "Apple SD Gothic Neo", "Malgun Gothic",
+    system-ui, sans-serif;
 }
 
 ::selection {
